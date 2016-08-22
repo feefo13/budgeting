@@ -6,30 +6,31 @@ This website showcases my personal projects
 - git
 
 ## How to install
-clone the repository
+1. clone the repository
 ```sh
 git clone https://github.com/feefo13/portfolio.git
 ```
-change directory to portfolio
+2. change directory to portfolio
 ```sh
 cd portfolio
 ```
-build docker image
-```sh docker build -t web_server .
+3. build docker image
 ```
-run docker container
+sh docker build -t web_server .
+```
+4. run docker container
 ```sh
 docker run -i -t -v "./portfolio":"/app" -p 3000:3000 web_server "/bin/bash"
 ```
-change directory to app
+5. change directory to app
 ```sh
 cd app
 ```
-install dependencies
+6. install dependencies
 ```sh
 npm install
 ```
-run node server
+7. run node server
 ``` sh
 node app.js
 ```
