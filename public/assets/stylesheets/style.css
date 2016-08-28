@@ -1,0 +1,29 @@
+
+h1, h2, h3, p {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-icon {
+	width:25px;
+	height:25px;
+}
+
+.flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#business-card {
+    border: solid;
+    padding: 0px 50px;
+	max-width: 50%;
+}
+
+#business-card.p, #business-card.h2, #business-card.h3 {
+	font-family: 'Libre Baskerville', serif;
+}
+
+.full-page {
+	height:100vh;
+}
